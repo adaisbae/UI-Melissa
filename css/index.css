@@ -208,4 +208,7 @@ button {
   padding: 15px 50px;
   font-size: 1.8rem;
   border-radius: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
