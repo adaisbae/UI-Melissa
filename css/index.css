@@ -212,3 +212,14 @@ button {
   bottom: 8px;
   right: 16px;
 }
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0 20px 0;
+}
+.info-box p {
+  background-color: #FFFFFF;
+  padding: 15px 50px;
+  font-size: 1rem;
+  color: #222222;
+}
