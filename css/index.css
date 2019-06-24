@@ -182,3 +182,20 @@ a {
   margin-left: 40px;
   color: #3D85C6;
 }
+.top h1 {
+  text-align: center;
+  padding: 40px 0 100px 0;
+}
+.main-img {
+  overflow: hidden;
+}
+main p {
+  color: #F6F7F8;
+}
+button {
+  background-color: #3D85C6;
+  color: #F6F7F8;
+  padding: 15px 50px;
+  font-size: 1.8rem;
+  border-radius: 8px;
+}
