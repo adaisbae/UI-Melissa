@@ -5,13 +5,25 @@
     padding: 40px 0 100px 0;
 }
 
+main{
+    position: relative;
+}
+
 .main-img{
     overflow: hidden;
 }
 
-main p{
+.main-text p{
+    max-width: 30%;
     color: @main-text;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    z-index: 2;
+    font-size: 3.7rem;
+    padding-top: 50px;
 }
+
 
 button {
     background-color: @button-bkgrnd;
