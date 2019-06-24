@@ -154,6 +154,29 @@ p {
   line-height: 1.4;
 }
 .container {
+  max-width: 1024px;
   width: 100%;
   margin: auto;
+  border: 1px solid red;
+  background-color: #C7E4B5;
+}
+header {
+  border: 1px solid blue;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #FFFFFF;
+}
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  font-size: 1.7rem;
+  text-decoration: none;
 }
