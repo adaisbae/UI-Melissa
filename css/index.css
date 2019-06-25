@@ -164,21 +164,25 @@ header {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 2px solid #FFFFFF;
   padding-top: 30px;
 }
 h1 {
   text-align: center;
   font-size: 2.7rem;
-  color: #F6F7F8;
+  color: #3D85C6;
 }
 nav {
   padding-bottom: 0;
 }
 a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   margin-left: 40px;
+  color: #F6F7F8;
+}
+a:hover {
   color: #3D85C6;
 }
 footer {
@@ -203,6 +207,7 @@ p {
 .top h1 {
   text-align: center;
   padding: 40px 0 50px 0;
+  color: #3D85C6;
 }
 main {
   position: relative;
