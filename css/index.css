@@ -267,3 +267,28 @@ button {
   color: #222222;
   text-align: center;
 }
+.photos {
+  background-color: #FFFFFF;
+  border: 3px solid #C7E4B5;
+}
+.photo-box1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.photo-box2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.photo-box {
+  border-radius: px;
+}
+main {
+  max-width: 75%;
+  margin: auto;
+}
+.bio {
+  color: #3D85C6;
+  margin: 40px 0;
+}
