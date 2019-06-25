@@ -202,7 +202,7 @@ p {
 }
 .top h1 {
   text-align: center;
-  padding: 40px 0 100px 0;
+  padding: 40px 0 50px 0;
 }
 main {
   position: relative;
@@ -222,27 +222,29 @@ img {
   top: 8px;
   right: 16px;
   z-index: 2;
-  font-size: 3.7rem;
-  padding-top: 50px;
+  font-size: 2.5rem;
+  padding-top: 10px;
 }
 button {
   background-color: #3D85C6;
   color: #F6F7F8;
-  padding: 15px 50px;
-  font-size: 1.8rem;
+  padding: 8px 40px;
+  font-size: 1.7rem;
   border-radius: 8px;
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 10px;
+  right: 15px;
+  opacity: 0.8;
 }
 .info {
   display: flex;
   justify-content: space-around;
-  padding: 150px 0 20px 0;
+  padding: 65px 0 50px 0;
 }
 .info-box p {
   background-color: #FFFFFF;
-  padding: 15px 50px;
-  font-size: 1rem;
+  padding: 10px 20px;
+  font-size: 0.9rem;
   color: #222222;
+  text-align: center;
 }
