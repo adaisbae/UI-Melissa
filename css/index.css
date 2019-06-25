@@ -160,6 +160,15 @@ p {
   background-color: #C7E4B5;
   border-bottom: 2px solid #C7E4B5;
 }
+@media (min-width: 500px) {
+  .container {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    background-color: #C7E4B5;
+    border-bottom: 2px solid #C7E4B5;
+  }
+}
 header {
   width: 80%;
   margin: auto;
@@ -230,6 +239,9 @@ img {
   z-index: 2;
   font-size: 2.5rem;
   padding-top: 10px;
+}
+@media (min-width: 500px) {
+  color: #3D85C6;
 }
 button {
   background-color: #3D85C6;
