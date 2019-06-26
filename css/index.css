@@ -162,14 +162,7 @@ p {
 @media (min-width: 500px) {
   .container {
     max-width: 1024px;
-<<<<<<< HEAD
     border-bottom: 4px solid #C7E4B5;
-=======
-    width: 100%;
-    margin: auto;
-    background-color: #C7E4B5;
-    border-bottom: 2px solid #C7E4B5;
->>>>>>> origin/master
   }
 }
 header {
