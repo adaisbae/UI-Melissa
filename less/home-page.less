@@ -2,7 +2,8 @@
 
 .top h1{
     text-align: center;
-    padding: 40px 0 100px 0;
+    padding: 40px 0 50px 0;
+    color: @main-text;
 }
 
 main{
@@ -10,7 +11,13 @@ main{
 }
 
 .main-img{
+    max-width: 100%;
     overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .main-text p{
@@ -20,33 +27,40 @@ main{
     top: 8px;
     right: 16px;
     z-index: 2;
-    font-size: 3.7rem;
-    padding-top: 50px;
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+@media (min-width: 500px){
+    color: @nav-text;
 }
 
 
 button {
     background-color: @button-bkgrnd;
     color: @main-text;
-    padding: 15px 50px;
-    font-size: 1.8rem;
+    padding: 8px 40px;
+    font-size: 1.7rem;
     border-radius: 8px;
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 10px;
+    right: 15px;
+    opacity: 0.8;
+    border: none;
 }
 
 .info{
     display: flex; 
     justify-content: space-around;
-    padding: 150px 0 20px 0;
+    padding: 65px 0 50px 0;
 }
 
 .info-box p{
     background-color: @white;
-    padding: 15px 50px;
-    font-size: 1rem;
+    padding: 10px 20px;
+    font-size:.9rem;
     color: @info-text;
+    text-align: center;
 }
 
 

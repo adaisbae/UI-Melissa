@@ -29,10 +29,19 @@
   }
   
   .container {
-    max-width: 1024px;
+    max-width: 500px;
     width: 100%;
     margin: auto;
-    border: 1px solid red;
     background-color: @apple;
+    border-bottom: 2px solid @apple;
   }
-  
+
+   @media (min-width: 500px){
+    .container {
+      max-width: 1024px;
+      width: 100%;
+      margin: auto;
+      background-color: @apple;
+      border-bottom: 2px solid @apple;
+    }
+   }
