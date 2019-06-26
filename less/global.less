@@ -1,4 +1,4 @@
-// General Styles
+// General Styles for Mobile
 * {
     box-sizing: border-box;
   }
@@ -8,11 +8,11 @@
   }
   
   html, body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   h2 {
@@ -29,12 +29,23 @@
   }
   
   .container {
-    max-width: 500px;
     width: 100%;
     margin: auto;
     background-color: @apple;
     border-bottom: 2px solid @apple;
   }
+<<<<<<< HEAD
+  
+
+  //Desktop
+
+  @media(min-width: 500px){
+    .container {
+      max-width: 1024px;
+      border-bottom: 4px solid @apple;
+    }
+  }
+=======
 
    @media (min-width: 500px){
     .container {
@@ -45,3 +56,4 @@
       border-bottom: 2px solid @apple;
     }
    }
+>>>>>>> origin/master

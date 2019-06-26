@@ -1,4 +1,4 @@
-// Navigation
+// Navigation for mobile
 
 header{
     width: 80%;
@@ -15,9 +15,11 @@ h1{
     font-size: 2.7rem;
     color: @main-text;
 }
+
 nav{
     padding-bottom: 0;
 }
+
 a{
     font-size: 1.3rem;
     text-decoration: none;
@@ -25,9 +27,30 @@ a{
     color: @main-text;
 }
 
-a:hover{
+ nav a:hover{
     color: @nav-text;
 }
+
+
+
+
+// Desktop View
+
+@media(min-width: 500px){
+header{
+    border-bottom: 3px solid @porcelain;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a{
+    font-size: 2rem;
+}
+}
+
 
 
 
