@@ -166,7 +166,7 @@ p {
   }
 }
 header {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -334,10 +334,6 @@ button {
 }
 .photo-box {
   border-radius: px;
-}
-main {
-  max-width: 75%;
-  margin: auto;
 }
 .bio {
   color: #3D85C6;
