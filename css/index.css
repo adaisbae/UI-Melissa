@@ -162,7 +162,14 @@ p {
 @media (min-width: 500px) {
   .container {
     max-width: 1024px;
+<<<<<<< HEAD
     border-bottom: 4px solid #C7E4B5;
+=======
+    width: 100%;
+    margin: auto;
+    background-color: #C7E4B5;
+    border-bottom: 2px solid #C7E4B5;
+>>>>>>> origin/master
   }
 }
 header {
@@ -248,6 +255,9 @@ img {
   font-size: 2.5rem;
   padding-top: 10px;
 }
+@media (min-width: 500px) {
+  color: #3D85C6;
+}
 button {
   background-color: #3D85C6;
   color: #F6F7F8;
@@ -313,4 +323,29 @@ button {
     border: 3px solid #3D85C6;
     font-weight: 800;
   }
+}
+.photos {
+  background-color: #FFFFFF;
+  border: 3px solid #C7E4B5;
+}
+.photo-box1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.photo-box2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.photo-box {
+  border-radius: px;
+}
+main {
+  max-width: 75%;
+  margin: auto;
+}
+.bio {
+  color: #3D85C6;
+  margin: 40px 0;
 }
