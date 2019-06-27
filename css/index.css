@@ -263,9 +263,16 @@ button {
   opacity: 0.8;
   border: none;
 }
-.main-btn a {
+button a {
   margin: 0;
   font-size: 1.8rem;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #3D85C6;
+}
+button a:hover {
+  color: #3D85C6;
 }
 .info {
   display: flex;
