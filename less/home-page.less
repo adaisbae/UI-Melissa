@@ -25,16 +25,16 @@ img{
     color: @main-text;
     position: absolute;
     top: 8px;
-    right: 16px;
+    right: 28px;
     z-index: 2;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 10px;
 }
 
-@media (min-width: 500px){
+.main-text p:hover{
     color: @nav-text;
+    font-weight: 700;
 }
-
 
 button {
     background-color: @button-bkgrnd;
@@ -69,7 +69,7 @@ button {
 
 
 // Desktop
-@media (min-width: 500px){
+@media (min-width: 550px){
     
     .main-img{
         max-width: 100%;
@@ -84,9 +84,9 @@ button {
     .main-text p{
         position: absolute;
         top: 8px;
-        right: 30px;
+        right: 45px;
         z-index: 2;
-        font-size: 4.5em;
+        font-size: 3.8em;
     }
 
     button {

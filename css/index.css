@@ -159,21 +159,14 @@ p {
   background-color: #C7E4B5;
   border-bottom: 2px solid #C7E4B5;
 }
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .container {
     max-width: 1024px;
-<<<<<<< HEAD
     border-bottom: 4px solid #C7E4B5;
-=======
-    width: 100%;
-    margin: auto;
-    background-color: #C7E4B5;
-    border-bottom: 2px solid #C7E4B5;
->>>>>>> origin/master
   }
 }
 header {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -198,7 +191,7 @@ a {
 nav a:hover {
   color: #3D85C6;
 }
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   header {
     border-bottom: 3px solid #F6F7F8;
     padding-top: 50px;
@@ -250,13 +243,14 @@ img {
   color: #F6F7F8;
   position: absolute;
   top: 8px;
-  right: 16px;
+  right: 28px;
   z-index: 2;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 10px;
 }
-@media (min-width: 500px) {
+.main-text p:hover {
   color: #3D85C6;
+  font-weight: 700;
 }
 button {
   background-color: #3D85C6;
@@ -286,7 +280,7 @@ button {
   border: 2px solid #3D85C6;
   border-radius: 12px;
 }
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .main-img {
     max-width: 100%;
     overflow: hidden;
@@ -298,9 +292,9 @@ button {
   .main-text p {
     position: absolute;
     top: 8px;
-    right: 30px;
+    right: 45px;
     z-index: 2;
-    font-size: 4.5em;
+    font-size: 3.8em;
   }
   button {
     font-size: 2.4rem;
@@ -340,10 +334,6 @@ button {
 }
 .photo-box {
   border-radius: px;
-}
-main {
-  max-width: 75%;
-  margin: auto;
 }
 .bio {
   color: #3D85C6;
