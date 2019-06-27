@@ -330,10 +330,8 @@ button {
   display: flex;
   justify-content: space-around;
 }
-.bio h3 {
-  color: #3D85C6;
+.bottom-about h2 {
   text-align: center;
-}
-.hide-image {
-  display: none;
+  color: #3D85C6;
+  font-size: 2.6rem;
 }
