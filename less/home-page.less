@@ -39,14 +39,27 @@ img{
 button {
     background-color: @button-bkgrnd;
     color: @main-text;
-    padding: 8px 40px;
-    font-size: 1.7rem;
+    padding: 8px 35px;
     border-radius: 8px;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     right: 15px;
     opacity: 0.8;
     border: none;
+}
+
+button a{
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+button:hover{
+    background-color: @white;
+    color: @nav-text;
+}
+
+button a:hover{
+    color: @nav-text;
 }
 
 .info{
@@ -90,12 +103,16 @@ button {
     }
 
     button {
-        font-size: 2.4rem;
         position: absolute;
         bottom: 40px;
         right: 30px;
     }
     
+    .main-btn a{
+        margin: 0;
+        font-size: 2.4rem;
+    }
+
     .info{
         display: flex; 
         flex-direction: row;

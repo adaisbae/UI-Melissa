@@ -255,14 +255,24 @@ img {
 button {
   background-color: #3D85C6;
   color: #F6F7F8;
-  padding: 8px 40px;
-  font-size: 1.7rem;
+  padding: 8px 35px;
   border-radius: 8px;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   right: 15px;
   opacity: 0.8;
   border: none;
+}
+button a {
+  margin: 0;
+  font-size: 1.8rem;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #3D85C6;
+}
+button a:hover {
+  color: #3D85C6;
 }
 .info {
   display: flex;
@@ -297,10 +307,13 @@ button {
     font-size: 3.8em;
   }
   button {
-    font-size: 2.4rem;
     position: absolute;
     bottom: 40px;
     right: 30px;
+  }
+  .main-btn a {
+    margin: 0;
+    font-size: 2.4rem;
   }
   .info {
     display: flex;
@@ -325,17 +338,12 @@ button {
 .photo-box1 {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0;
 }
 .photo-box2 {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0;
 }
-.photo-box {
-  border-radius: px;
-}
-.bio {
-  color: #3D85C6;
-  margin: 40px 0;
+.bottom-about {
+  display: flex;
+  flex-direction: column;
 }
