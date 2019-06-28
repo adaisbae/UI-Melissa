@@ -1,3 +1,8 @@
+.photo-box-text {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -331,19 +336,89 @@ button a:hover {
     font-weight: 800;
   }
 }
-.photos {
-  background-color: #FFFFFF;
-  border: 3px solid #C7E4B5;
-}
 .photo-box1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .photo-box2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photo-box3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photo-box4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photo-box1 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box2 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box3 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box4 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
 }
 .bottom-about {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+}
+.bottom-about-img {
+  height: auto;
+  max-width: 90%;
+  margin: auto;
+  border: 2px solid #F6F7F8;
+  border-radius: 6px;
+}
+.bottom-about-text {
+  max-width: 95%;
+  text-align: left;
+  padding-left: 10px;
+}
+.bottom-about-text h1 {
+  margin-bottom: 20px;
+}
+.bottom-about-text p {
+  font-size: 1.7rem;
+}
+@media (min-width: 550px) {
+  .desktop-photos {
+    display: flex;
+  }
+  .bottom-about {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-about-img {
+    max-width: 50%;
+    margin: auto;
+  }
+  .bottom-about-text {
+    max-width: 50%;
+  }
+  .bottom-about-text p {
+    font-size: 2rem;
+  }
 }
