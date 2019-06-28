@@ -39,8 +39,10 @@
 
 .bottom-about-img{
     height: auto;
-    max-width: 100%;
-    margin-bottom: 30px;
+    max-width: 90%;
+    margin: auto;
+    border: 2px solid @porcelain;
+    border-radius: 6px;
 }
 
 .bottom-about-text {
@@ -59,10 +61,8 @@
 
 
 @media (min-width: 550px){
-    .photos {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+    .desktop-photos{
+      display: flex;
     }
 
     .bottom-about {
@@ -72,12 +72,11 @@
     
     .bottom-about-img{
         max-width: 50%;
-        margin-bottom: 30px;
+        margin: auto;
     }
     
     .bottom-about-text {
         max-width: 50%;
-        padding-left: 10px;
     }
     
     .bottom-about-text p{
