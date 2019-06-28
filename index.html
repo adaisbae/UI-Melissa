@@ -10,8 +10,9 @@
     <meta name="robots" content="index,follow">
     <title>Bountiful | Donor Transparency</title>
     <link href="css/index.css" rel="stylesheet">
-    <script src= "index.js"></script>
-    <script src=“https://unpkg.com/axios/dist/axios.min.js“></script>
+    <script src= "/index.js"></script>
+    <script src='https://unpkg.com/axios/dist/axios.min.js'></script>
+    
 </head>
 
 <body>
@@ -45,15 +46,15 @@
 
         <section class="info">
             <div class="info-box">
-                <p>826,000 # of people who donated</p>
+                <p><span id= "donor"></span> # of People Who Donated</p>
             </div>
 
         <div class= "info-box">
-                <p>{total} total donation</p>
+                <p><span id="donation-total"></span> Total Donations</p>
             </div>
 
             <div class="info-box">
-                <p>826,000 charities served</p>
+                <p><span id= "donation-count"></span> Charities Served</p>
             </div>
         </section>
 
@@ -71,6 +72,17 @@
 
     </Div>
     <!--container-->
+    <script>const donationTotal = document.getElementById('donation-total');
+            console.log(donationTotal);
+                        axios.get('https://donor-manage-bw.herokuapp.com/api/donations/total').then((response) => {donationTotal.textContent = response.data.total})</script>
+
+<script>const donor = document.getElementById('donor');
+        console.log(donor);
+                    axios.get('https://donor-manage-bw.herokuapp.com/api/donor/count').then((response) => {donor.textContent = response.data.total})</script>
+
+<script>const donationCount= document.getElementById('donation-count');
+        console.log(donationCount);
+                    axios.get('https://donor-manage-bw.herokuapp.com/api/donations/count').then((response) => {donationCount.textContent = response.data.total})</script>
 </body>
 
 </html>
