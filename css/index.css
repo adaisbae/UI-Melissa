@@ -333,13 +333,47 @@ button a:hover {
 }
 .photo-box1 {
   display: flex;
+  justify-content: space-around;
   margin-bottom: 50px;
   text-align: center;
 }
 .photo-box2 {
   display: flex;
+  justify-content: space-around;
   margin-bottom: 50px;
   text-align: center;
+}
+.photo-box3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photo-box4 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photo-box1 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box2 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box3 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
+}
+.photo-box4 p {
+  font-size: 1.7rem;
+  color: #3D85C6;
+  margin-top: 5px;
 }
 .bottom-about {
   display: flex;
