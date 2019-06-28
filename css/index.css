@@ -352,3 +352,20 @@ button a:hover {
 .bottom-about-text p {
   font-size: 1.7rem;
 }
+@media (min-width: 550px) {
+  .bottom-about {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-about-img {
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  .bottom-about-text {
+    max-width: 50%;
+    padding-left: 10px;
+  }
+  .bottom-about-text p {
+    font-size: 2rem;
+  }
+}
