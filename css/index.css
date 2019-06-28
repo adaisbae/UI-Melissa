@@ -402,6 +402,11 @@ button a:hover {
   font-size: 1.7rem;
 }
 @media (min-width: 550px) {
+  .photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
   .bottom-about {
     display: flex;
     flex-direction: row;
