@@ -398,7 +398,7 @@ button a:hover {
   padding-left: 10px;
 }
 .bottom-about-text h1 {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 .bottom-about-text p {
   font-size: 1.7rem;
@@ -413,7 +413,6 @@ button a:hover {
   }
   .bottom-about-img {
     max-width: 50%;
-    margin: auto;
   }
   .bottom-about-text {
     max-width: 50%;
